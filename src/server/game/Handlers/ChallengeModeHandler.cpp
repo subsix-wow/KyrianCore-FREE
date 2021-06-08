@@ -24,7 +24,7 @@
 #include "WorldSession.h"
 #include "Chat.h"
 #include "ChallengeMgr.h"
-#include <Challenge\Challenge.h>
+#include "Challenge.h"
 
 
 void WorldSession::HandleRequestLeaders(WorldPackets::ChallengeMode::RequestLeaders& packet)

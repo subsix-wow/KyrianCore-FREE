@@ -23,7 +23,7 @@
 #include "Player.h"
 #include "ObjectMgr.h"
 #include "jade_forest.h"
-#include <Loot\LootMgr.h>
+#include "LootMgr.h"
 
 #define REPUTATION_ORDER_OF_THE_CLOUD_SERPENT 1271
 #define GOSSIP_TEXT_I 12585
