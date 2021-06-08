@@ -21,6 +21,7 @@
 #include "Define.h"
 #include <map>
 #include <functional>
+#include <atomic>
 
 typedef std::multimap<uint64, std::function<void()>> FunctionList;
 
