@@ -30,7 +30,7 @@
 #include "TemporarySummon.h"
 #include "Vehicle.h"
 #include "WaypointDefines.h"
-#include <DungeonFinding\LFGMgr.h>
+#include "LFGMgr.h
 
 SmartScript::SmartScript()
 {
