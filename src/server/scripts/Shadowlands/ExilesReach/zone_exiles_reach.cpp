@@ -30,7 +30,7 @@
 #include "Log.h"
 #include "Chat.h"
 #include "ZoneScript.h"
-#include <AI\ScriptedAI\ScriptedGossip.h>
+#include "ScriptedGossip.h"
 
 /******************************************************
     NOTE TO DEVS:
