@@ -492,7 +492,6 @@ template class TC_GAME_API ObjectGuidGenerator<HighGuid::UserClient>;
 template class TC_GAME_API ObjectGuidGenerator<HighGuid::PetBattle>;
 template class TC_GAME_API ObjectGuidGenerator<HighGuid::UniqUserClient>;
 template class TC_GAME_API ObjectGuidGenerator<HighGuid::BattlePet>;
-template class TC_GAME_API ObjectGuidGenerator<HighGuid::Vignette>;
 template class TC_GAME_API ObjectGuidGenerator<HighGuid::CommerceObj>;
 template class TC_GAME_API ObjectGuidGenerator<HighGuid::ClientSession>;
 template class TC_GAME_API ObjectGuidGenerator<HighGuid::Cast>;
