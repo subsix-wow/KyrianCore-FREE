@@ -36,7 +36,7 @@
 #include <array>
 #include <unordered_map>
 #include <unordered_set>
-#include <Server\Packets\QuestPackets.h>
+#include "QuestPackets.h"
 
 class BattlepayManager;
 class BattlePet;
