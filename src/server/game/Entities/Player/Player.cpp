@@ -134,7 +134,7 @@
 #include "WorldQuestMgr.h"
 #include <G3D/g3dmath.h>
 #include <sstream>
-#include <Globals\BattlePetDataStore.h>
+#include "BattlePetDataStore.h"
 
 #define ZONE_UPDATE_INTERVAL (1*IN_MILLISECONDS)
 
