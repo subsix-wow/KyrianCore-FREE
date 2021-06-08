@@ -32,7 +32,7 @@
 #include "WorldSession.h"
 #include <array>
 #include <map>
-#include <Server\Packets\InspectPackets.h>
+#include "InspectPackets.h"
 
 enum MountStatusFlags : uint8;
 enum UnitStandStateType : uint8;
