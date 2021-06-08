@@ -1,5 +1,5 @@
-Kyrian Source based off Thordekk & HolyDeW
-Forked by subsix
+Kyrian Source based off Thordekk
+Forked and Leaked by subsix
 --------------
 
 
