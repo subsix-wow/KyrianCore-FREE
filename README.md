@@ -40,7 +40,3 @@ Read file [COPYING](COPYING).
 ## Authors &amp; Contributors
 
 Read file [AUTHORS](AUTHORS).
-
-
-## Links
-Donations: 
