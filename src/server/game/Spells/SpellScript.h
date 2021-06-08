@@ -204,8 +204,7 @@ class TC_GAME_API SpellScript : public _SpellScript
             typedef void(CLASSNAME::*SpellObjectAreaTargetSelectFnType)(std::list<WorldObject*>&); \
             typedef void(CLASSNAME::*SpellObjectTargetSelectFnType)(WorldObject*&); \
             typedef void(CLASSNAME::*SpellDestinationTargetSelectFnType)(SpellDestination&); \
-            typedef void(CLASSNAME::*SpellOnTakePowerFnType)(SpellPowerCost& powerCost); 
-           
+                       
 
         SPELLSCRIPT_FUNCTION_TYPE_DEFINES(SpellScript)
 
