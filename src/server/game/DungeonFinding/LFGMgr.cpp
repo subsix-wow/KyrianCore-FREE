@@ -41,7 +41,7 @@
 #include "World.h"
 #include "WorldSession.h"
 #include <sstream>
-#include <Loot\LootItemType.h>
+#include "LootItemType.h"
 
 namespace lfg
 {
