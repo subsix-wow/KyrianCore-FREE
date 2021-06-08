@@ -41,7 +41,7 @@ class FunctionProcessor
         void AddDelayedEvent(uint64 t_offset, std::function<void()>&& function);
 
     protected:
-        std::atomic<uint64> m_time;
+        std::atomic<uint64_t> m_time;
         FunctionList m_functions;
         FunctionList m_functions_queue;
         std::recursive_mutex m_queue_lock;
