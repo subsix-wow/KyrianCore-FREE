@@ -30,7 +30,7 @@
 #include "TemporarySummon.h"
 #include "Vehicle.h"
 #include "WaypointDefines.h"
-#include "LFGMgr.h
+#include "LFGMgr.h"
 
 SmartScript::SmartScript()
 {
