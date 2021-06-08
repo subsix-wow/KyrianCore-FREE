@@ -32,7 +32,7 @@
 #include "ObjectMgr.h"
 #include "UnitAI.h"
 #include "WorldStatePackets.h"
-#include <Utilities\Containers.h>
+#include "Containers.h"
 
 Challenge::Challenge(Map* map, Player* player, uint32 instanceID, Scenario* scenario) : InstanceScript(map) , _instanceScript(nullptr), _challengeEntry(nullptr), _isKeyDepleted(false), _scenario(scenario)
 {
