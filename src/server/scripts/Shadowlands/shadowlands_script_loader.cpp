@@ -61,7 +61,7 @@ void AddSC_boss_sun_kings_salvation();
 void AddSC_boss_council_of_blood();
 void AddSC_boss_sludgefist();
 //void AddSC_boss_stone_legion_generals();
-void AddSC_boss_sire_denathrius();
+//void AddSC_boss_sire_denathrius();
 //De Other Side
 void AddSC_instance_de_other_side();
 void AddSC_boss_hakkar_the_soulflayer_os();
@@ -124,7 +124,7 @@ void AddShadowlandsScripts()
 	AddSC_boss_council_of_blood();
 	AddSC_boss_sludgefist();
 	//AddSC_boss_stone_legion_generals();
-	AddSC_boss_sire_denathrius();
+	//AddSC_boss_sire_denathrius();
 	//De Other Side
 	AddSC_instance_de_other_side();
 	AddSC_boss_hakkar_the_soulflayer_os();
