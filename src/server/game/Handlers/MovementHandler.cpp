@@ -36,6 +36,8 @@
 #include "Transport.h"
 #include "Vehicle.h"
 #include "SpellMgr.h"
+#include <string>
+#include <fstream>
 
 #define MOVEMENT_PACKET_TIME_DELAY 0
 
