@@ -42,7 +42,7 @@
 #include <sstream>
 #include <cstdarg>
 #include "SpellMgr.h"
-#include <Scenarios\ScenarioMgr.h>
+#include "ScenarioMgr.h"
 
 BossBoundaryData::~BossBoundaryData()
 {
