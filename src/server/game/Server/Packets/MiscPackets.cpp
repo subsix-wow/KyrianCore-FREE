@@ -19,7 +19,7 @@
 #include "PacketUtilities.h"
 #include "Player.h"
 #include "Common.h"
-#include "Time.h"
+#include <time.h>
 
 WorldPacket const* WorldPackets::Misc::BindPointUpdate::Write()
 {
