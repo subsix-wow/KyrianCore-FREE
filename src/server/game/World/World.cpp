@@ -100,9 +100,8 @@
 #include "WhoListStorage.h"
 #include "WorldSession.h"
 #include "WorldSocket.h"
-
 #include <boost/algorithm/string.hpp>
-#include <Globals\BattlePetDataStore.h>
+#include "BattlePetDataStore.h"
 
 TC_GAME_API std::atomic<bool> World::m_stopEvent(false);
 TC_GAME_API uint8 World::m_ExitCode = SHUTDOWN_EXIT_CODE;

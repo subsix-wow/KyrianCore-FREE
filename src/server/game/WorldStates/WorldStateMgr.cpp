@@ -7,7 +7,7 @@
 #include "BattlegroundMgr.h"
 #include "ScriptMgr.h"
 #include "WorldStatePackets.h"
-#include <Maps\MapManager.h>
+#include "MapManager.h"
 
 void AddToWorldStateSet(WorldStateSet** worldStateSet, WorldState const* state)
 {
