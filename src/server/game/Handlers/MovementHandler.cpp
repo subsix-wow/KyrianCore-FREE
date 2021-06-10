@@ -255,7 +255,7 @@ void WorldSession::HandleTimeSyncResponseFailed(WorldPackets::Movement::TimeSync
     Player* player = GetPlayer();
 
     TC_LOG_ERROR("LOG_FILTER_NETWORKIO", "WorldSession::HandleTimeSyncResponseFailed:: what we should do with it?: Player: %s, packet.SequenceIndex: %u, PlayerSequenceIndex: %u ",
-        player->GetName(), packet.SequenceIndex, player->m_sequenceIndex);
+        player->GetName().c_str(), packet.SequenceIndex, player->m_sequenceIndex);
 }
 
 void WorldSession::HandleTimeSyncResponseDropped(WorldPackets::Movement::TimeSyncResponseDropped& /*packet*/)

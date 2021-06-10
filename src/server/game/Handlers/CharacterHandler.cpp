@@ -1128,7 +1128,7 @@ void WorldSession::HandlePlayerLogin(LoginQueryHolder* holder)
 
             if (pCurrChar->GetTeam() == ALLIANCE)
             {
-                guidLow = ObjectGuid::Create<HighGuid::Transport>(30);
+                guidLow = ObjectGuid::Create<HighGuid::Transport>(35);
                 gobTransport = HashMapHolder<Transport>::Find(guidLow);
                 if (gobTransport)
                 {
@@ -1157,7 +1157,7 @@ void WorldSession::HandlePlayerLogin(LoginQueryHolder* holder)
             else
             {
 
-                guidLow = ObjectGuid::Create<HighGuid::Transport>(31);
+                guidLow = ObjectGuid::Create<HighGuid::Transport>(36);
                 gobTransport = HashMapHolder<Transport>::Find(guidLow);
                 if (gobTransport)
                 {
