@@ -8,7 +8,7 @@ Forked and Leaked by subsix
 
 ## Introduction
 
-KyrianCore is a *MMORPG* Framework based mostly in C++.
+KyrianCore is a *TrinityCore* Framework based mostly in C++.
 
 It is derived from *MaNGOS* / *TrinityCore*, the *Massive Network Game Object Server*, and is
 based on the code of that project with extensive changes over time to optimize,
