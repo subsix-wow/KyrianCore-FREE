@@ -513,10 +513,11 @@ void WorldSession::HandleAreaTriggerOpcode(WorldPackets::AreaTrigger::AreaTrigge
                             player->SendQuestUpdateAddCreditSimple(obj);
                             if (qInfo->HasSpecialFlag(QUEST_SPECIAL_FLAGS_SEQUENCED_OBJECTIVES))
                                 completedObjectiveInSequencedQuest = true;
+                            if (qInfo->HasSpecialFlag(QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT))
+                                player->AreaExploredOrEventHappens(questId);
                             break;
                         }
                     }
-
                     if (player->CanCompleteQuest(questId))
                         player->CompleteQuest(questId);
                 }
