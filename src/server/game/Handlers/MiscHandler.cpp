@@ -59,6 +59,7 @@
 #include <boost/thread/locks.hpp>
 #include <cstdarg>
 #include <zlib.h>
+#include <QuestDef.h>
 
 void WorldSession::HandleRepopRequest(WorldPackets::Misc::RepopRequest& /*packet*/)
 {
@@ -509,6 +510,16 @@ void WorldSession::HandleAreaTriggerOpcode(WorldPackets::AreaTrigger::AreaTrigge
                     {
                         if (obj.Type == QUEST_OBJECTIVE_AREATRIGGER && !player->IsQuestObjectiveComplete(slot, qInfo, obj))
                         {
+                            if (qInfo->HasSpecialFlag(QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT))
+                            {
+                                std::map<uint32, QuestStatusData> m_QuestStatus = player->getQuestStatusMap();
+                                if (m_QuestStatus[questId].Explored && (m_QuestStatus[questId].Status == false))
+                                {
+                                    m_QuestStatus[questId].Explored = true;
+                                }
+                                    
+                            }
+
                             player->SetQuestObjectiveData(obj, 1);
                             player->SendQuestUpdateAddCreditSimple(obj);
                             if (qInfo->HasSpecialFlag(QUEST_SPECIAL_FLAGS_SEQUENCED_OBJECTIVES))
