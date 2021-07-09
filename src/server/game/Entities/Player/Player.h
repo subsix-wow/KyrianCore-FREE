@@ -1078,7 +1078,7 @@ private:
 };
 
 uint32 constexpr PLAYER_MAX_HONOR_LEVEL = 500;
-uint8 constexpr PLAYER_LEVEL_MIN_HONOR = 110;
+uint8 constexpr PLAYER_LEVEL_MIN_HONOR = 60;
 uint32 constexpr SPELL_PVP_RULES_ENABLED = 134735;
 
 enum class ZonePVPTypeOverride : uint32
